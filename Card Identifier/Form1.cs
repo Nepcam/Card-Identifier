@@ -1,0 +1,26 @@
+﻿/*
+ Create an app with 5 PictureBox controls
+ Each PictureBox should display a different card from the set of images
+ When the user clicks any of the PictureBox controls, the name of the card should be in a Label control. 
+ */
+
+using System;
+using System.Collections.Generic;
+using System.ComponentModel;
+using System.Data;
+using System.Drawing;
+using System.Linq;
+using System.Text;
+using System.Threading.Tasks;
+using System.Windows.Forms;
+
+namespace Card_Identifier
+{
+    public partial class Form1 : Form
+    {
+        public Form1()
+        {
+            InitializeComponent();
+        }
+    }
+}
