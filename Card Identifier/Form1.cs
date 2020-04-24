@@ -16,11 +16,37 @@ using System.Windows.Forms;
 
 namespace Card_Identifier
 {
-    public partial class Form1 : Form
+    public partial class FormCardIdentifier : Form
     {
-        public Form1()
+        public FormCardIdentifier()
         {
             InitializeComponent();
+        }
+
+        private void pictureBox1_Click(object sender, EventArgs e)
+        {
+            labelOutput.Text = "2 of clubs";
+        }
+
+        private void pictureBox2_Click(object sender, EventArgs e)
+        {
+            labelOutput.Text = "2 of diamonds";
+        }
+
+        private void pictureBox3_Click(object sender, EventArgs e)
+        {
+            labelOutput.Text = "2 of hearts";
+        }
+
+        private void pictureBox4_Click(object sender, EventArgs e)
+        {
+            labelOutput.Text = "2 of spades";
+
+        }
+
+        private void pictureBox5_Click(object sender, EventArgs e)
+        {
+            labelOutput.Text = "the joker";
         }
     }
 }
